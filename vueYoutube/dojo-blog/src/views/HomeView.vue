@@ -27,7 +27,7 @@
 import { ref, reactive, computed, watch, watchEffect } from 'vue';
 
 export default {
-  name: 'HomeView',
+  name: 'Home',
   setup() {
 
     const p = ref(null)
