@@ -13,13 +13,10 @@ export default {
     components: {SinglePost},
     setup(props) {
         onMounted(() => {
-            console.log("Compinent mounted!");
         })
         onUnmounted(() => {
-            console.log("Unmounted")
         })
         onUpdated(() => {
-            console.log("Updated data")
         })
     }
 }
